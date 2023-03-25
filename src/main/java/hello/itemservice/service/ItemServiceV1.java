@@ -33,7 +33,6 @@ public class ItemServiceV1 implements ItemService {
 
     @Override
     public List<Item> findItems(ItemSearchCond cond) {
-
         return itemRepository.findAll(cond);
     }
 }
